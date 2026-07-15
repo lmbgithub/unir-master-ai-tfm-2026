@@ -1,0 +1,6 @@
+# audio 8.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.345 CER=0.185 term_WER=0.250 NER_recall=0.750
+# latency_ms=2683 audio_ms=30999 RTF=0.087
+# hallucination=False flags=[]
+
+Phil Albert revealed 64 years old and the Doctor Garcia in bed two came in for trombaly tic therapy with long history of car job problems for 14 years now brought in by ambulance four days ago on regular nitros and he is still the same ops are stable and gradually he is gradually improving and new other Good job, I'm still with that.

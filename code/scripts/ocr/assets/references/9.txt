@@ -1,0 +1,13 @@
+DISCHARGE SUMMARY
+MRN: MRN-725380
+Patient: Margaret Fairbanks
+Ward: Renal Ward
+Consultant: Dr. Mensah
+Primary Diagnosis
+Fast atrial fibrillation with rapid ventricular response.
+Secondary Diagnoses
+Previous transient ischaemic attack and glaucoma.
+Discharge Medications
+Enoxaparin 40 mg SC OD; Aspirin 300 mg PO stat then 75 mg OD; Atorvastatin 80 mg PO OD at night
+Follow-up Plan
+Review in the outpatient clinic in six weeks with repeat bloods. Advised to attend the emergency department if symptoms recur.

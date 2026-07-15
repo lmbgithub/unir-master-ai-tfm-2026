@@ -1,0 +1,6 @@
+# audio 1.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.113 CER=0.065 term_WER=0.000 NER_recall=1.000
+# latency_ms=2448 audio_ms=47229 RTF=0.052
+# hallucination=False flags=[]
+
+On bed 4, it's Vera Abbot, 93 years old, under Dr. Liu. She came in with chest pain and with a history of stroke and previous chest pains. She's in also Kathara asma in glaucoma and she's almost blind and she needs assistance with her ADLs. She had three nitros today but still got no effect and she is under monitoring. Under that she is all her hopes are fine and that's all for her.

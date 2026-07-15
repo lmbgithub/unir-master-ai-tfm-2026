@@ -1,0 +1,11 @@
+RADIOLOGY REPORT
+MRN: MRN-201414
+Patient: Stanley Rowntree
+Examination: Chest X-ray PA and lateral
+Date: 13/02/2026
+Clinical Indication
+Clinical question of pulmonary oedema versus consolidation in a breathless patient.
+Findings
+There is cardiomegaly with upper lobe venous diversion and small bilateral pleural effusions. No focal consolidation or pneumothorax is seen.
+Impression
+Findings consistent with mild pulmonary oedema. No acute consolidation.

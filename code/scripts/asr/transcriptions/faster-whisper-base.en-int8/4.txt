@@ -1,0 +1,6 @@
+# audio 4.wav · modelo faster-whisper-base.en-int8
+# WER=0.071 CER=0.041 term_WER=0.500 NER_recall=0.500
+# latency_ms=3017 audio_ms=33013 RTF=0.091
+# hallucination=False flags=[]
+
+Mike Hanley, 48 years old, under Dr. Johnson, in bed three, came in with query, heartburn, or heart attack for investigation. He's on regular nitros, and his obes are all stable, and he's for repeat bloods tomorrow. He's for Echo to be arranged and just monitoring and that's all for him.

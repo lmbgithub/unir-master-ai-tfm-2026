@@ -1,0 +1,52 @@
+FROM debian:bookworm-slim AS builder
+
+RUN apt-get update && apt-get install -y \
+  git \
+  build-essential \
+  cmake \
+  clang \
+  libgomp1 \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+RUN git clone https://github.com/ggml-org/llama.cpp .
+
+RUN CC=clang CXX=clang++ cmake -B build \
+  -DGGML_CUDA=OFF \
+  -DGGML_METAL=OFF \
+  -DGGML_NATIVE=ON \
+  -DBUILD_SHARED_LIBS=OFF
+
+RUN cmake --build build --target llama-server -j4
+
+FROM debian:bookworm-slim
+
+RUN apt-get update && apt-get install -y libgomp1 \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY --from=builder /app/build/bin/llama-server .
+
+VOLUME ["/models"]
+
+EXPOSE 8080
+
+ENV LLAMA_ARG_MODEL=/models/phi-4-mini-instruct-q4_k_m.gguf \
+  LLAMA_ARG_CTX_SIZE=2048 \
+  LLAMA_ARG_THREADS=4 \
+  LLAMA_ARG_N_GPU_LAYERS=0 \
+  LLAMA_ARG_N_PARALLEL=1 \
+  LLAMA_ARG_HOST=0.0.0.0 \
+  LLAMA_ARG_PORT=8080
+
+CMD ["sh", "-c", \
+  "./llama-server \
+  -m ${LLAMA_ARG_MODEL} \
+  -c ${LLAMA_ARG_CTX_SIZE} \
+  -t ${LLAMA_ARG_THREADS} \
+  -ngl ${LLAMA_ARG_N_GPU_LAYERS} \
+  --parallel ${LLAMA_ARG_N_PARALLEL} \
+  --host ${LLAMA_ARG_HOST} \
+  --port ${LLAMA_ARG_PORT}"]

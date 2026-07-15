@@ -1,0 +1,14 @@
+MEDICATION ADMINISTRATION ORDER
+MRN: MRN-262316
+Patient: Edith Driscoll
+Ward: Renal Ward
+Prescriber: Dr. Romano
+Prescribed Medications
+Medication Dose Route Frequency
+Enoxaparin 40 mg SC OD
+Aspirin 300 mg PO stat then 75 mg OD
+Salbutamol 5 mg NEB QDS PRN
+Paracetamol 1 g PO QDS PRN
+Insulin glargine 12 units SC OD at night
+Notes
+Check renal function before each furosemide dose and hold if systolic blood pressure is below 100 mmHg. Monitor potassium daily.

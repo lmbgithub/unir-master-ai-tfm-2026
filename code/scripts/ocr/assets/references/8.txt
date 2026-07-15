@@ -1,0 +1,11 @@
+RADIOLOGY REPORT
+MRN: MRN-634277
+Patient: Clifford Pemberton
+Examination: CT head without contrast
+Date: 26/07/2026
+Clinical Indication
+Sudden focal neurological deficit, exclude haemorrhage before thrombolysis.
+Findings
+No intracranial haemorrhage. Loss of grey-white differentiation in the left insular cortex with early sulcal effacement.
+Impression
+Early established left middle cerebral artery infarct. No haemorrhage.

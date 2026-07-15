@@ -1,0 +1,21 @@
+LABORATORY RESULTS REPORT
+MRN: MRN-522179
+Patient: Mabel Ashworth
+Specimen: Venous blood
+Collected: 15/03/2026
+Complete Blood Count
+Test Result Unit Flag
+Haemoglobin 11.6 g/dL Low
+White cell count 7.5 x10^9/L Normal
+Platelets 217 x10^9/L Normal
+Neutrophils 12.4 x10^9/L High
+Renal and Inflammatory Markers
+Test Result Unit Flag
+Sodium 130 mmol/L Low
+Potassium 4.4 mmol/L Normal
+Urea 19.4 mmol/L High
+Creatinine 341 umol/L High
+eGFR 24 mL/min Low
+CRP 13 mg/L High
+Interpretation
+Results reviewed against age-matched reference ranges. Abnormal values flagged for clinical correlation and repeat testing as indicated.

@@ -1,0 +1,20 @@
+EMERGENCY DEPARTMENT TRIAGE NOTE
+MRN: MRN-770487
+Patient: Arthur Abbott
+Age: 75 years
+Sex: Male
+Triage time: 23:06
+Chief Complaint
+Palpitations and light-headedness with an irregular pulse, no chest pain but a history of atrial fibrillation.
+Vital Signs
+Parameter Value
+HR 59 bpm
+BP 170/82 mmHg
+RR 13 /min
+Temp 35.6 C
+SpO2 88 percent
+GCS 12/15
+ESI level: 1
+Allergies: No known drug allergies
+Triage Notes
+Patient assessed on arrival, cardiac monitor attached and IV access obtained. Bloods sent and ECG performed. Referred to the medical team for urgent review.

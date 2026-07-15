@@ -1,0 +1,6 @@
+# audio 2.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.273 CER=0.124 term_WER=0.333 NER_recall=0.667
+# latency_ms=1285 audio_ms=20950 RTF=0.061
+# hallucination=False flags=[]
+
+On bed 7, it's your Nita Muletta, 51 years old under Dr. Garcia. She came in with heartburn under investigation and observed all stable, nail other issues. And that's over her.

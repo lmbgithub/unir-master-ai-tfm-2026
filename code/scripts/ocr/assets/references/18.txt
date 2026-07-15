@@ -1,0 +1,11 @@
+RADIOLOGY REPORT
+MRN: MRN-783823
+Patient: Reginald Abbott
+Examination: Renal tract ultrasound
+Date: 16/04/2026
+Clinical Indication
+Rising creatinine and reduced urine output.
+Findings
+Both kidneys are normal in size with preserved cortical thickness. No hydronephrosis and no renal calculi are demonstrated.
+Impression
+No obstruction. Appearances consistent with intrinsic acute kidney injury.

@@ -1,0 +1,6 @@
+# audio 5.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.175 CER=0.139 term_WER=0.333 NER_recall=0.667
+# latency_ms=1104 audio_ms=20296 RTF=0.054
+# hallucination=False flags=[]
+
+In Loomin Wong, bed on bed 5, 70, 75 years old, and the Doctor Liu. He is for heart surgery to be arranged and he's been going in and out of the hospital for the last three months. Otherwise, no other changes.

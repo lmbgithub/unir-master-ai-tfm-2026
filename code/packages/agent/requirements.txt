@@ -1,0 +1,15 @@
+pydantic>=2.0
+pydantic-settings>=2
+json-repair>=0.30
+setuptools>=64
+build>=1.0
+wheel>=0.42
+nats-py
+ruff
+
+pytest
+pytest-flake8
+pytest-cov
+pytest-asyncio
+pytest-mock
+python-dotenv

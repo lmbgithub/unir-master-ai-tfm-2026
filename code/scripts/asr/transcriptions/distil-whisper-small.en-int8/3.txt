@@ -1,0 +1,6 @@
+# audio 3.wav · modelo distil-whisper-small.en-int8
+# WER=0.148 CER=0.094 term_WER=0.333 NER_recall=0.667
+# latency_ms=4359 audio_ms=44868 RTF=0.097
+# hallucination=False flags=[]
+
+In bed for Robert Lewis, who wants to be called Bob. He's 62 under Dr. Johnson and he came in with heart attack and had a cabbage. He's got a history of high HD and he's for MRSA and we are a surveillance swab. He is with ongoing surgical wound care, which looks nice and clean and healing well. constipation and hasn't opened his bows for the last three days now. Regular appearance given with good effect and all his obs are all stable and that's all for

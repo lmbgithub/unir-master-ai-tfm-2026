@@ -1,0 +1,6 @@
+# audio 10.wav · modelo distil-whisper-small.en-int8
+# WER=0.126 CER=0.064 term_WER=0.833 NER_recall=0.167
+# latency_ms=4587 audio_ms=60066 RTF=0.076
+# hallucination=False flags=[]
+
+In bed one, it's in the Benedictos under Dr. Smith. She came in for management of diabetes and high cholesterol. She was seen by the team today and they had adjusted her dose again. She's cut fluctuating vigils and it's monitored QID plus PR and she's on daily bloods and for the British educator tomorrow at 2.30 p.m. She is self-caring though and she does her own insulin and she just needs a little bit of supervision. The team is planning for her to get discharged early this this week or not sorry next week other than that all are stable all ups are stable.

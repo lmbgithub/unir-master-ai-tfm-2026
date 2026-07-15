@@ -1,0 +1,21 @@
+LABORATORY RESULTS REPORT
+MRN: MRN-850800
+Patient: Reginald Holloway
+Specimen: Venous blood
+Collected: 26/01/2026
+Complete Blood Count
+Test Result Unit Flag
+Haemoglobin 14.4 g/dL Normal
+White cell count 5.8 x10^9/L Normal
+Platelets 306 x10^9/L Normal
+Neutrophils 5.8 x10^9/L Normal
+Renal and Inflammatory Markers
+Test Result Unit Flag
+Sodium 132 mmol/L Low
+Potassium 3.7 mmol/L Normal
+Urea 17.5 mmol/L High
+Creatinine 112 umol/L High
+eGFR 23 mL/min Low
+CRP 98 mg/L High
+Interpretation
+Results reviewed against age-matched reference ranges. Abnormal values flagged for clinical correlation and repeat testing as indicated.

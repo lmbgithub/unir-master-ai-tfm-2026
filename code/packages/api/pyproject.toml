@@ -1,0 +1,39 @@
+[project]
+name = "urgenurse-api"
+
+authors = [
+    {email = "lmb.office@gmail.com", name = "Luis Manuel Barrios"},
+]
+description = "UrgeNurse Api"
+readme = "README.md"
+dynamic = ["version", "dependencies", "optional-dependencies"]
+requires-python = ">=3.11,<3.13"
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8", "build<0.10.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools_scm]
+root = "../../"
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"
+fallback_version = "0.0+UNKNOWN"
+version_file = "src/urgenurse/api/_version.py"
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "--cov",
+    "--cov-report=term-missing"
+]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"

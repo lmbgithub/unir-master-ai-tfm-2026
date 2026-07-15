@@ -1,0 +1,141 @@
+services:
+  db:
+    container_name: urgenurse-db
+    image: postgres:16-alpine
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  nats:
+    container_name: urgenurse-broker
+    image: nats:2-alpine
+    command: ["-js"]
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+
+  api:
+    container_name: urgenurse-api
+    build:
+      context: packages/api
+      target: dev
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://urgenurse:urgenurse@db:5432/urgenurse
+      NATS_URL: nats://nats:4222
+      STORAGE_PATH: /app/uploads
+      PYTHONPATH: /app/src:/agent/src
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./packages/api/src:/app/src
+      - ./packages/api/alembic:/app/alembic
+      - ./packages/agent/src:/agent/src
+      - ../.uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+      nats:
+        condition: service_started
+
+  webui:
+    container_name: urgenurse-app
+    build:
+      context: packages/webui
+      dockerfile: Dockerfile
+      target: dev
+      args:
+        - API_URL=http://api:8000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./packages/webui:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - api
+
+  agent-ocr:
+    container_name: urgenurse-ocr
+    build:
+      context: packages
+      dockerfile: agent-ocr/Dockerfile
+      target: dev
+    env_file: .env
+    environment:
+      NATS_URL: nats://nats:4222
+      llm_url: http://llm:8080
+    volumes:
+      - ./packages/agent-ocr/src:/app/src
+      - ./packages/agent/src:/agent/src
+      - ../.uploads:/app/uploads
+    depends_on:
+      - nats
+
+  agent-asr:
+    container_name: urgenurse-asr
+    build:
+      context: packages
+      dockerfile: agent-asr/Dockerfile
+      target: dev
+    env_file: .env
+    environment:
+      NATS_URL: nats://nats:4222
+      llm_url: http://llm:8080
+    volumes:
+      - ./packages/agent-asr/src:/app/src
+      - ./packages/agent/src:/agent/src
+      - ../.uploads:/app/uploads
+    depends_on:
+      - nats
+
+  agent-triage:
+    container_name: urgenurse-triage
+    build:
+      context: packages
+      dockerfile: agent-triage/Dockerfile
+      target: dev
+    env_file: .env
+    environment:
+      NATS_URL: nats://nats:4222
+      llm_url: http://llm:8080
+    volumes:
+      - ./packages/agent-triage/src:/app/src
+      - ./packages/agent/src:/agent/src
+      - ../.uploads:/app/uploads
+    depends_on:
+      - nats
+
+  llm:
+    container_name: urgenurse-llm
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.llm
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/models
+    environment:
+      - LLAMA_ARG_MODEL=/models/lfm2-700m-q4_k_m.gguf
+      - LLAMA_MODEL=/models/lfm2-700m-q4_k_m.gguf
+      - LLAMA_ARG_CTX_SIZE=128000
+      - LLAMA_ARG_THREADS=4
+      - LLAMA_ARG_N_GPU_LAYERS=0
+      - LLAMA_ARG_N_PARALLEL=1
+      - LLAMA_ARG_HOST=0.0.0.0
+      - LLAMA_ARG_PORT=8080
+    restart: unless-stopped
+
+volumes:
+  pgdata:

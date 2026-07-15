@@ -1,0 +1,14 @@
+[
+  {
+    "user_id": "00000000-0000-0000-0000-000000000001",
+    "email": "admin@urgenurse.local",
+    "password": "secret",
+    "role": "admin"
+  },
+  {
+    "user_id": "00000000-0000-0000-0000-000000000002",
+    "email": "nurse1@urgenurse.local",
+    "password": "nurse1pass",
+    "role": "nurse"
+  }
+]

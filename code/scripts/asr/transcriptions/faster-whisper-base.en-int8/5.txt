@@ -1,0 +1,6 @@
+# audio 5.wav · modelo faster-whisper-base.en-int8
+# WER=0.050 CER=0.042 term_WER=0.333 NER_recall=0.667
+# latency_ms=1469 audio_ms=20296 RTF=0.072
+# hallucination=False flags=[]
+
+In Lumine Wong on bed 5, 75 years old under Dr. Liu, he is for heart surgery to be arranged and he's been going in and out of the hospital for the last three months. Otherwise, no other changes.

@@ -1,0 +1,6 @@
+# audio 2.wav · modelo distil-whisper-small.en-int8
+# WER=0.091 CER=0.046 term_WER=0.333 NER_recall=0.667
+# latency_ms=2348 audio_ms=20950 RTF=0.112
+# hallucination=False flags=[]
+
+On bed 7 it's Unita Moletta. 51 years old under Dr. Garcia. She came in with heartburn under investigation and Obbs are all stable, nil other issues. And that's all for her.

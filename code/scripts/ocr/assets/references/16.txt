@@ -1,0 +1,20 @@
+EMERGENCY DEPARTMENT TRIAGE NOTE
+MRN: MRN-324643
+Patient: Reginald Caldwell
+Age: 94 years
+Sex: Female
+Triage time: 13:12
+Chief Complaint
+Central chest pain radiating to the left arm for two hours, not relieved by three sublingual nitroglycerin sprays.
+Vital Signs
+Parameter Value
+HR 60 bpm
+BP 179/82 mmHg
+RR 23 /min
+Temp 37.2 C
+SpO2 92 percent
+GCS 11/15
+ESI level: 1
+Allergies: Penicillin
+Triage Notes
+Patient assessed on arrival, cardiac monitor attached and IV access obtained. Bloods sent and ECG performed. Referred to the medical team for urgent review.

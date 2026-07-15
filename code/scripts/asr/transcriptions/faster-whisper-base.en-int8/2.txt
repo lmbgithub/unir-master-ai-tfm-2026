@@ -1,0 +1,6 @@
+# audio 2.wav · modelo faster-whisper-base.en-int8
+# WER=0.182 CER=0.147 term_WER=0.333 NER_recall=0.667
+# latency_ms=1938 audio_ms=20950 RTF=0.093
+# hallucination=False flags=[]
+
+On bed 7, it's Unita Muleta, 51 years old under Dr. Garcia. She came in with heartburn, under investigation, and ops are all stable, near other issues, and that's over her. Alright.

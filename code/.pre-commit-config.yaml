@@ -1,0 +1,32 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.14
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+        exclude: \.ipynb$
+      - id: ruff-format
+        exclude: \.ipynb$
+
+  - repo: local
+    hooks:
+      - id: webui-type-check
+        name: TypeScript type check
+        language: system
+        entry: bash -c 'cd code/packages/webui && npm run type-check'
+        pass_filenames: false
+        files: ^code/packages/webui/.*\.(ts|tsx)$
+
+      - id: webui-lint
+        name: ESLint
+        language: system
+        entry: bash -c 'cd code/packages/webui && npm run lint'
+        pass_filenames: false
+        files: ^code/packages/webui/.*\.(ts|tsx|js|jsx)$
+
+      - id: webui-format
+        name: Prettier format check
+        language: system
+        entry: bash -c 'cd code/packages/webui && npx prettier --write .'
+        pass_filenames: false
+        files: ^code/packages/webui/.*\.(ts|tsx|js|jsx|json|css|md)$

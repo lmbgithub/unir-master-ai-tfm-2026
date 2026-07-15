@@ -1,0 +1,13 @@
+DISCHARGE SUMMARY
+MRN: MRN-520521
+Patient: Harold Hartley
+Ward: Stroke Unit
+Consultant: Dr. Mensah
+Primary Diagnosis
+Fast atrial fibrillation with rapid ventricular response.
+Secondary Diagnoses
+Osteoarthritis and well-controlled asthma.
+Discharge Medications
+Amoxicillin 500 mg PO TDS; Clopidogrel 75 mg PO OD; Prednisolone 30 mg PO OD for 5 days
+Follow-up Plan
+Review in the outpatient clinic in six weeks with repeat bloods. Advised to attend the emergency department if symptoms recur.

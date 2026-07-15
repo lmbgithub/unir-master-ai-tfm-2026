@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+
+# Para importar el código real de packages/agent y packages/agent-triage
+# (evaluate.py llama evaluate_triage() directamente, sin reimplementar el
+# prompt) en vez de pasar por NATS.
+pydantic>=2.0
+pydantic-settings>=2.0
+httpx>=0.27
+json-repair>=0.30
+nats-py

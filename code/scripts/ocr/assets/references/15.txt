@@ -1,0 +1,14 @@
+MEDICATION ADMINISTRATION ORDER
+MRN: MRN-107540
+Patient: Margaret Whitfield
+Ward: Acute Medical Unit
+Prescriber: Dr. Mensah
+Prescribed Medications
+Medication Dose Route Frequency
+Atorvastatin 80 mg PO OD at night
+Enoxaparin 40 mg SC OD
+Metoprolol 25 mg PO BD
+Clopidogrel 75 mg PO OD
+Amoxicillin 500 mg PO TDS
+Notes
+Check renal function before each furosemide dose and hold if systolic blood pressure is below 100 mmHg. Monitor potassium daily.

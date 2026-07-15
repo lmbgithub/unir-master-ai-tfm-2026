@@ -1,0 +1,6 @@
+# audio 8.wav · modelo distil-whisper-small.en-int8
+# WER=0.276 CER=0.197 term_WER=0.250 NER_recall=0.750
+# latency_ms=4249 audio_ms=30999 RTF=0.137
+# hallucination=False flags=[]
+
+Phil Albert Rivet, 64 years old and Dr. Garcia in bed too, came in for traumatic therapy with long history of cardiac problems for 14 years now, brought in by ambulance four days ago on regular nitros and he is still the same. Obbs are stable and gradually he is gradually improving and he is gradually improving and he is other problems I'm still

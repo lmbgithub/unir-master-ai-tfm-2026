@@ -1,0 +1,15 @@
+pandas               
+matplotlib           
+numpy                
+psutil               
+reportlab            
+pymupdf              
+pillow               
+pytesseract         
+paddleocr           
+paddlepaddle        
+rapidocr-onnxruntime 
+easyocr              
+python-doctr[torch]  
+docling              
+ipykernel          

@@ -1,0 +1,20 @@
+EMERGENCY DEPARTMENT TRIAGE NOTE
+MRN: MRN-755674
+Patient: Leonard Underwood
+Age: 70 years
+Sex: Male
+Triage time: 17:49
+Chief Complaint
+Palpitations and light-headedness with an irregular pulse, no chest pain but a history of atrial fibrillation.
+Vital Signs
+Parameter Value
+HR 48 bpm
+BP 171/75 mmHg
+RR 27 /min
+Temp 35.6 C
+SpO2 99 percent
+GCS 13/15
+ESI level: 3
+Allergies: No known drug allergies
+Triage Notes
+Patient assessed on arrival, cardiac monitor attached and IV access obtained. Bloods sent and ECG performed. Referred to the medical team for urgent review.

@@ -1,0 +1,13 @@
+DISCHARGE SUMMARY
+MRN: MRN-573417
+Patient: Arthur Lockwood
+Ward: Respiratory Ward
+Consultant: Dr. Liu
+Primary Diagnosis
+Fast atrial fibrillation with rapid ventricular response.
+Secondary Diagnoses
+Chronic heart failure with reduced ejection fraction.
+Discharge Medications
+Ramipril 2.5 mg PO OD; Enoxaparin 40 mg SC OD; Metoprolol 25 mg PO BD
+Follow-up Plan
+Review in the outpatient clinic in six weeks with repeat bloods. Advised to attend the emergency department if symptoms recur.

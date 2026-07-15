@@ -1,0 +1,11 @@
+RADIOLOGY REPORT
+MRN: MRN-322086
+Patient: Reginald Brennan
+Examination: Chest X-ray portable
+Date: 15/09/2026
+Clinical Indication
+Productive cough and fever, query consolidation.
+Findings
+Patchy consolidation is noted at the right lung base with air bronchograms. The cardiac silhouette is within normal limits.
+Impression
+Right lower lobe pneumonia.

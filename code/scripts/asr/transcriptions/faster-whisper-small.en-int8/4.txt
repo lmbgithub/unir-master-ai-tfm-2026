@@ -1,0 +1,6 @@
+# audio 4.wav · modelo faster-whisper-small.en-int8
+# WER=0.054 CER=0.014 term_WER=0.500 NER_recall=0.500
+# latency_ms=4472 audio_ms=33013 RTF=0.135
+# hallucination=False flags=[]
+
+Mike Hanlin, 48 years old, under Dr. Johnson, in bed 3, came in with query heartburn or heart attack for investigation. He's on regular nitrous and his obes are all stable and he's for repeat bloods tomorrow. He's for Echo to be arranged and just monitoring, and that's all for him.

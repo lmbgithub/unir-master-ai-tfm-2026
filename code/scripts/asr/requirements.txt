@@ -1,0 +1,9 @@
+faster-whisper
+pandas        
+matplotlib    
+numpy         
+psutil        
+pywhispercpp 
+sherpa-onnx  
+vosk 
+ipykernel 

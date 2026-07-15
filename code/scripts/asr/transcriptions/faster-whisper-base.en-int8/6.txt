@@ -1,0 +1,6 @@
+# audio 6.wav · modelo faster-whisper-base.en-int8
+# WER=0.182 CER=0.110 term_WER=0.500 NER_recall=0.500
+# latency_ms=1967 audio_ms=29824 RTF=0.066
+# hallucination=False flags=[]
+
+Stephen Jonathan Spencer, 72 years old under Dr. Liu, he's in bed six, came in from Melbourne with fevers and tiredness. He had cabbage three months ago and he's only here to visit his daughter and grandchildren and then he gets sick and his hopes are all stable and he's still for investigation.

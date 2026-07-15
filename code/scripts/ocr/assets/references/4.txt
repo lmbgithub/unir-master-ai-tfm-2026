@@ -1,0 +1,13 @@
+DISCHARGE SUMMARY
+MRN: MRN-678856
+Patient: Leonard Yarrow
+Ward: Emergency Department
+Consultant: Dr. Liu
+Primary Diagnosis
+Acute ischaemic stroke of the left middle cerebral artery territory.
+Secondary Diagnoses
+Type 2 diabetes mellitus, hypertension and hyperlipidaemia.
+Discharge Medications
+Aspirin 300 mg PO stat then 75 mg OD; Paracetamol 1 g PO QDS PRN; Metoprolol 25 mg PO BD
+Follow-up Plan
+Review in the outpatient clinic in six weeks with repeat bloods. Advised to attend the emergency department if symptoms recur.

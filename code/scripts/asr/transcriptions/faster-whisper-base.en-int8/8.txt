@@ -1,0 +1,6 @@
+# audio 8.wav · modelo faster-whisper-base.en-int8
+# WER=0.103 CER=0.043 term_WER=0.000 NER_recall=1.000
+# latency_ms=1972 audio_ms=30999 RTF=0.064
+# hallucination=False flags=[]
+
+Phil Albert Rivet, 64 years old, and Dr. Garcia in bed 2, came in for trombolytic therapy with long history of cardiac problems for 14 years now. Brought in by ambulance four days ago on regular nitros and he's still the same. OBS are stable and gradually, he is gradually improving and near other problems note.

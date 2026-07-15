@@ -1,0 +1,6 @@
+# audio 10.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.135 CER=0.048 term_WER=0.500 NER_recall=0.500
+# latency_ms=3515 audio_ms=60066 RTF=0.059
+# hallucination=False flags=[]
+
+In Bed 1, it's Cindy Benedictos under Dr. Smith. She came in for management of diabetes and high cholesterol. She was seen by the team today and they had adjusted her dose again. She's got fluctuating BGOs and it's monitored QID plus PRN. She's on daily bloods and four diabetes educator tomorrow at 2.30 p.m. She is self-carrying though and she does her own insulin and she just needs a little bit of supervision. The team is planning for her to get this charge early this week. or I'm not sorry, next week, other than that, all are stable, all observe stable.

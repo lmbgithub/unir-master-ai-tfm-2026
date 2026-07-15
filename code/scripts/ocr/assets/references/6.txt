@@ -1,0 +1,20 @@
+EMERGENCY DEPARTMENT TRIAGE NOTE
+MRN: MRN-802729
+Patient: Beatrice Pemberton
+Age: 68 years
+Sex: Male
+Triage time: 12:17
+Chief Complaint
+Palpitations and light-headedness with an irregular pulse, no chest pain but a history of atrial fibrillation.
+Vital Signs
+Parameter Value
+HR 76 bpm
+BP 182/75 mmHg
+RR 13 /min
+Temp 36.4 C
+SpO2 85 percent
+GCS 13/15
+ESI level: 4
+Allergies: Aspirin
+Triage Notes
+Patient assessed on arrival, cardiac monitor attached and IV access obtained. Bloods sent and ECG performed. Referred to the medical team for urgent review.

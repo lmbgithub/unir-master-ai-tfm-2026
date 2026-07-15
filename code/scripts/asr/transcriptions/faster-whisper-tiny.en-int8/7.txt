@@ -1,0 +1,6 @@
+# audio 7.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.053 CER=0.013 term_WER=0.000 NER_recall=1.000
+# latency_ms=880 audio_ms=16998 RTF=0.052
+# hallucination=False flags=[]
+
+In bed 5, we've got Maria Siner, 88 years old under Dr. Garcia, came in originally with high blood pressure and with dementia and just waiting for nursing home placement. And that's all for her.

@@ -1,0 +1,6 @@
+# audio 8.wav · modelo faster-whisper-small.en-int8
+# WER=0.121 CER=0.083 term_WER=0.250 NER_recall=0.750
+# latency_ms=4773 audio_ms=30999 RTF=0.154
+# hallucination=False flags=[]
+
+Phil Albert-Rivet, 64 years old under Dr. Garcia in bed 2, came in for thrombolytic therapy with long history of cardiac problems for 14 years now, brought in by ambulance four days ago on regular nitrous and he is still the same, abs are stable and he is gradually improving and nail other problems.

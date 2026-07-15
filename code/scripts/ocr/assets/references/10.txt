@@ -1,0 +1,14 @@
+MEDICATION ADMINISTRATION ORDER
+MRN: MRN-905934
+Patient: Mabel Ashworth
+Ward: Coronary Care Unit
+Prescriber: Dr. Petrov
+Prescribed Medications
+Medication Dose Route Frequency
+Aspirin 300 mg PO stat then 75 mg OD
+Clopidogrel 75 mg PO OD
+Enoxaparin 40 mg SC OD
+Furosemide 40 mg IV BD
+Atorvastatin 80 mg PO OD at night
+Notes
+Check renal function before each furosemide dose and hold if systolic blood pressure is below 100 mmHg. Monitor potassium daily.

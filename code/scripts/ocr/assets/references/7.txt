@@ -1,0 +1,21 @@
+LABORATORY RESULTS REPORT
+MRN: MRN-169403
+Patient: Edith Wexford
+Specimen: Venous blood
+Collected: 13/08/2026
+Complete Blood Count
+Test Result Unit Flag
+Haemoglobin 9.2 g/dL Low
+White cell count 5.5 x10^9/L Normal
+Platelets 377 x10^9/L Normal
+Neutrophils 8.2 x10^9/L High
+Renal and Inflammatory Markers
+Test Result Unit Flag
+Sodium 146 mmol/L High
+Potassium 4.4 mmol/L Normal
+Urea 14.1 mmol/L High
+Creatinine 245 umol/L High
+eGFR 40 mL/min Low
+CRP 36 mg/L High
+Interpretation
+Results reviewed against age-matched reference ranges. Abnormal values flagged for clinical correlation and repeat testing as indicated.

@@ -1,0 +1,6 @@
+# audio 9.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.286 CER=0.188 term_WER=1.000 NER_recall=0.000
+# latency_ms=2038 audio_ms=17278 RTF=0.118
+# hallucination=False flags=[]
+
+In Bedland, we've got George and Tonya Sanchez for the three years old and the doctor's meet came in with high blood pressure for investigation. He already had all tests done in awaiting results. He's cleared for discharge if all is good. here that's all for here

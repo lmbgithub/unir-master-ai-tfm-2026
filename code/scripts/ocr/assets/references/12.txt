@@ -1,0 +1,21 @@
+LABORATORY RESULTS REPORT
+MRN: MRN-160738
+Patient: Frank Wexford
+Specimen: Venous blood
+Collected: 27/02/2026
+Complete Blood Count
+Test Result Unit Flag
+Haemoglobin 16.3 g/dL Normal
+White cell count 11.2 x10^9/L High
+Platelets 154 x10^9/L Normal
+Neutrophils 3.1 x10^9/L Normal
+Renal and Inflammatory Markers
+Test Result Unit Flag
+Sodium 143 mmol/L Normal
+Potassium 6.0 mmol/L High
+Urea 6.1 mmol/L Normal
+Creatinine 330 umol/L High
+eGFR 89 mL/min Low
+CRP 109 mg/L High
+Interpretation
+Results reviewed against age-matched reference ranges. Abnormal values flagged for clinical correlation and repeat testing as indicated.

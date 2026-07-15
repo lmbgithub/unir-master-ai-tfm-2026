@@ -1,0 +1,6 @@
+# audio 9.wav · modelo faster-whisper-base.en-int8
+# WER=0.163 CER=0.083 term_WER=0.500 NER_recall=0.500
+# latency_ms=1861 audio_ms=17278 RTF=0.108
+# hallucination=False flags=[]
+
+In bed one we got George Antonio Sanchez, 43 years old and the doctor's meat, came in with high blood pressure for investigation. He already had all tests done in awaiting results. He is queer for discharge if always good. And that's all for him.

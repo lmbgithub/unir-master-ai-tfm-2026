@@ -1,0 +1,6 @@
+# audio 4.wav · modelo distil-whisper-small.en-int8
+# WER=0.143 CER=0.060 term_WER=0.250 NER_recall=0.750
+# latency_ms=4374 audio_ms=33013 RTF=0.132
+# hallucination=False flags=[]
+
+Mike Hanley, 48 years old, and Dr. Johnson in bed 3, came in with query, heart burn, or heart attack for investigation. He's on regular nitros. And his obe, his obes are all stable and he's for repeat bloods tomorrow. He's for echo to be arranged and just monitoring. and that's all for him.

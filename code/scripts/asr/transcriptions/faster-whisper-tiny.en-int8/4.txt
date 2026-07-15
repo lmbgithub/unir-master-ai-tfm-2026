@@ -1,0 +1,6 @@
+# audio 4.wav · modelo faster-whisper-tiny.en-int8
+# WER=0.196 CER=0.096 term_WER=0.500 NER_recall=0.500
+# latency_ms=1405 audio_ms=33013 RTF=0.043
+# hallucination=False flags=[]
+
+Mike Hanley in 48 years old under Dr. Johnson in bed three came in with query heartburn or heart attack for investigation He's on regular nitros and he's all well his orbs are all stable and He's for repeat bloods tomorrow He's for echo to be arranged and I'm just monitoring and that's all for him.
